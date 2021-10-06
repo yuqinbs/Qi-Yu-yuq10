@@ -1,0 +1,71 @@
+
+/* CSS FOR detail.html, most for layout  */
+
+.detail-image-wrapper {
+    clear: both;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+  
+  .detail-image {
+    background-image: url(../images/site/detail_image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+  }
+  
+  .detail-image-sizing {
+    padding-top: 33%;
+  }
+
+  .content {
+    color: black;
+    background: white;
+    padding: 30px;
+    border-radius: 3px;
+  }
+
+  .event-date-people {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 1% ;
+    }
+  
+    .event-location-time{
+      display: flex;
+      justify-content: space-between;
+      padding-left: 2%;
+      padding-right: 2%;
+    }
+
+.event-holder {
+  display: flex;
+      justify-content: space-between;
+      padding-left: 2%;
+      padding-right: 2%;
+}
+
+.content .event-title {
+  display: flex;
+  
+}
+
+
+
+.content .event-map{
+  padding-top: 5%;
+  
+}
+
+.map{
+  padding-top: 1%;
+  position: relative;
+  margin: auto;
+}
+

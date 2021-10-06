@@ -1,0 +1,92 @@
+/* CSS FOR add.html, most for layout  */
+
+
+.create-event {
+    display: flex;
+    margin-left: 10%;
+    margin-top: 2%;
+    width: 100%;
+    
+}
+
+.create-container{
+    display: flex;
+    width: 1440px;
+  max-width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.left_page {
+    flex:1;
+}
+
+.right_page {
+    flex:1;
+}
+
+.center_page {
+    flex: 1;
+}
+
+.create-title{
+    display: block;
+        
+        margin-top: 2%;
+        max-width:fit-content;
+        max-height:fit-content;
+        border: 1px solid black;
+        margin-bottom: 2%;
+
+}
+
+.enter {
+    display: block;
+    flex-wrap: wrap;
+    
+}
+
+.enter input{
+    margin-bottom: 2%;
+    
+}
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+
+  /* If the width <= 768px, change layout */
+  @media (max-width:768px) {
+
+    .create-title{
+        display: block;
+            
+            
+            max-width:fit-content;
+            max-height:fit-content;
+            border: 1px solid black;
+            margin-bottom: 2%;
+    
+    }
+
+    .create-container{
+        display: block;
+        width: 1440px;
+      max-width: 100%;
+      padding: 20px;
+      margin: 0 auto;
+    }
+  }

@@ -1,0 +1,144 @@
+
+/* CSS FOR list.html, most for layout  */
+
+.big-container1 {
+    display: block;
+    width: 40%;
+    height: 10px;
+    
+    
+}
+.big-container2 {
+    float: right;
+    width: 60%;
+    height: 100%;
+    display: block;
+    
+}
+.matches {
+        display: block;
+        margin-left: 10%;
+        margin-top: 2%;
+        max-width:fit-content;
+        max-height:fit-content;
+        border: 1px solid black;
+        margin-bottom: 2%;
+         
+}
+
+.matches blocks{
+  display: block;
+    border: 1px solid black;
+}
+
+.list-filter {
+    display:block;
+    margin-left: 10%;
+    max-width:fit-content;
+    max-height:fit-content;
+    border: 1px solid black; 
+    margin-bottom: 2%; 
+}
+
+.list-filter list-select{
+    display: flex;
+}
+
+.list-event-boxes {
+    margin-left: 10%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1em;
+    max-width: 100em;
+    padding: 1em;
+    flex-wrap: wrap;
+  }
+  
+  .list-event-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1em;
+    max-width: 100em;
+    padding: 1em;
+    flex-wrap: wrap;
+  }
+  
+  .list-event-box img{
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    float: left;
+  }
+  
+  .list-event-image-and-info {
+    display:flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .list-event-title{
+    margin:0 auto;
+    width: 200px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  .list-event-image {
+    width: fit-content;
+    
+  }
+
+  .list-event-description {
+
+      max-width: fit-content;
+  }
+   
+  .list-event-info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25em;
+  }
+  
+  .list-event-title {
+    font-weight: bold;
+  }
+  
+  .list-event-description {
+    font-style: italic;
+  }
+  
+  .view-more-button {
+    background-color: white;
+    color: dodgerblue;
+    
+    border: solid dodgerblue 2px;
+    border-radius: 7.5px;
+    
+  }
+
+  @media (max-width:768px) {
+
+  .big-container1 {
+    display: block;
+    width: 100%;
+    height: 10px;
+    display: block;
+    padding-bottom: 30%;
+}
+.big-container2 {
+    float: none;
+    width: 100%;
+    height: 100%;
+    display: block;
+    flex: auto;
+}
+.list-event-image-and-info{
+  flex-direction: column;
+}
+  }

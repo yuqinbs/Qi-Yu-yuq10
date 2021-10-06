@@ -1,0 +1,6 @@
+/* CSS FOR main, most for layout  */
+
+main {
+  display: flex;
+  flex-direction: column;
+}
